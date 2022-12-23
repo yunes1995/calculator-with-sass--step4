@@ -84,11 +84,14 @@ body {
     display: flex;
 }
 
-.top_right_of_site button {
-    width: 40px;
-    height: 33px;
-    background-color: $color-btn ;
-}
+
+.top_right_of_site  {
+        button{
+         width: 40px;
+         height: 33px;
+         background-color: $color-btn ;
+        }
+     }
 
 .close_button {
     font-size: 14px;
@@ -122,10 +125,12 @@ body {
     margin-left: 10px;
 }
 
-.navigation p {
+.navigation {
+    p{
     font-size: 25px;
     padding-top: 6px;
     margin-left: 5px;
+}
 }
 
 .nav_pic {
@@ -329,9 +334,11 @@ body {
     margin-bottom: 17px;
 }
 
-.showInMiniMemory button {
+.showInMiniMemory {
+    button{
     padding: 5px;
     margin-left: 16px;
+}
 }
 
 .pInMemory {
@@ -353,11 +360,13 @@ body {
     transition: all;
 }
 
-.contetnthistory p {
+.contetnthistory {
+    p{
     margin-left: 24%;
     padding: 25px;
     font-size: 20px;
     font-weight: bold;
+}
 }
 
 .displayshow {
@@ -365,12 +374,14 @@ body {
 }
 
 /* --------------------memory-------------*/
-.memoryFunc p {
+.memoryFunc {
+    p{
     margin-top: 18px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
     font-size: 26px;
+}
 }
 
 .memoryFunc {
